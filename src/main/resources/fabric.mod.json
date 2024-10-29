@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mobgamerules",
+  "version": "${version}",
+  "name": "mobGameRules",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mobgamerules/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.josh.mobgamerules.client.MobgamerulesClient"
+    ],
+    "main": [
+      "net.josh.mobgamerules.Mobgamerules"
+    ]
+  },
+  "mixins": [
+    "mobgamerules.mixins.json",
+    {
+      "config": "mobgamerules.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
