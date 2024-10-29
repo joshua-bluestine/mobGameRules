@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.josh.mobgamerules.mixin.client",
+  "package": "net.josh.mobgamerules.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
   ],

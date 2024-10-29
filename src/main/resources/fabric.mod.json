@@ -7,12 +7,9 @@
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/mobgamerules/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "net.josh.mobgamerules.client.MobgamerulesClient"
-    ],
+
     "main": [
       "net.josh.mobgamerules.Mobgamerules"
     ]
